@@ -73,64 +73,55 @@
   <div id="modal1" class="modal bottom-sheet">
     <div class="modal-content">
       <div class="row">
-            <span class="red-text center-align"><h5>Get Connected.</h5></span>
+            <span class="red-text center-align"><h5>Contact Details</h5></span>
             <hr>
-        </div>
-      <div class="row">
-        <p>Please Provide us contact details so that we can contact you.</p>
       </div>
-       {% if error %}
+      <div class="container">
         <div class="row">
-          <p class="red-text">{{ error }}</p>
+          <div class="col l6 offset-l2 s12">
+            <i class="fa fa-phone fa-2x red-text"></i>
+            <span style="font-size: 18; padding-right: 18">: +91-7723004424</span>
           </div>
-        {% endif %}
-      <div class="row">
-        <form action="" method="post">
-          <div class="row">
-            <div class="input-field col l3 s12">
-              <i class="fa fa-user prefix"></i>
-              <input type="text" name="name" value="{{request.form.name}}"class="validate" required="required">
-              <label for="name">Name</label>
-            </div>
-            <div class="input-field col l3 s12">
-              <i class="fa fa-phone prefix"></i>
-              <input type="text" name="phone" value="{{request.form.phone}}" class="validate" required="required">
-              <label for="phone">Phone</label>
-            </div>
-            <div class="input-field col s12 l3">
-              <i class="fa fa-envelope prefix"></i>
-              <input type="email" name="email" value="{{request.form.email}}" class="validate" required="required">
-              <label for="email">Email</label>
-            </div>
-            <button class="btn waves-effect waves-light red lighten-2" type="submit" name="action" style="margin-bottom: -50px; margin-left: 30px;">Get Started.<i class="fa fa-paper-plane right"></i>
-            </button> 
+          <div class="col l6">
+            <i class="fa fa-envelope fa-2x red-text"></i>
+            <span style="font-size: 18">: nishantshreshth.13@gmail.com</span>
           </div>
-        </form>
-       
+        </div>
+        <div clas="col l12">
+          <i class="fa fa-map-marker fa-3x red-text"></i>
+          <span style="font-size: 18">: Room No. 6129, J C Bose Bhawan, MANIT, Bhopal India, 462003
+          </span>
+        </div>
       </div>
-     </div>
+    </div>
   </div>
 
 
   <div class="container">
-  <div class="row">
-    <br><br><br>
-    <span class="red-text center-align">
-    <h4>WHO WE ARE ?</h4></span>
-    <hr>
-    <br>
-    <p style="font-size: 18px;" class="center brown-text">
-     We are TeleDoc. We understand that during and after pregnancy you have many things to ask and many things to care about, which is very much difficult.
-      <br>
-      <strong>We are here to assist you so that you can bring a better child to this world.</strong>
-      </p>
-    <br><br>
-  </div>
     <div class="row">
-      <span class="center red-text">
-      <h5><a class="waves-effect waves-red btn-flat modal-trigger" href="#modal1">Get Connected</a></h5></span>
+      <br><br><br>
+      <span class="red-text center-align">
+      <h4>SKILLS</h4></span>
+      <hr>
       <br>
-      <br>
+    </div>
+    <div class="row">
+      <div class="col l6 s12">
+        <div class="card">
+          <div class="card-title center-align red-text">PYTHON</div>
+          <hr>
+          <div class="card-content">
+            <div class="row valign-wrapper">
+              <div class="col l4">
+                <img src="static/img/py.jpg" alt="" class="circle responsive-img"> 
+              </div>
+              <div class="col l8">
+                  Python
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
