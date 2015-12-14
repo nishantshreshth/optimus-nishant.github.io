@@ -114,3 +114,19 @@ footer.page-footer {
   background: transparent;
   border-radius: 4%;
 }
+
+.spacepad i:hover
+{
+  color: #ec523f;
+
+}
+
+.spacepad i, a
+{
+  margin-right: 25px;
+  color: black;
+}
+a
+{
+  text-decoration: none;
+}
