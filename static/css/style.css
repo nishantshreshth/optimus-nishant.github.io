@@ -64,9 +64,6 @@ p {
   font-size: inherit;
 }
 
-footer.page-footer {
-  margin: 0;
-}
 
 .btn-flat {
   border: #ec523f ;
@@ -81,17 +78,6 @@ footer.page-footer {
 #modal1
 {
   background-color: #f5f5f5;
-}
-
-.page-footer ul li{
-  display: inline;
-  padding-right: 20px;
-  list-style: none;
-}
-.page-footer ul li a
-{
-  text-decoration: none;
-  cursor: pointer;
 }
 
 .count-number
@@ -129,4 +115,10 @@ footer.page-footer {
 a
 {
   text-decoration: none;
+}
+
+.collapsible-body ul li
+{
+  margin-left: 15px;
+  list-style: circle !important;
 }
