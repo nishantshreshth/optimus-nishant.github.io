@@ -5,7 +5,7 @@
     s=u.createElement('script');
     s.type='text/javascript';
     s.async=true;
-    s.src='https://cdn.pushcrew.com/js/280530484c3d5fcb829fdf998e183a16.js';
+    s.src='https://cdn.pushcrew.com/js/791bca04458a6f795485c7a66386ab4d.js';
     h=u.getElementsByTagName('script')[0];
     h.parentNode.insertBefore(s,h);
 })(window,document);
