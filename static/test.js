@@ -1,4 +1,3 @@
-<script type="text/javascript">
 (function(p,u,s,h){
     p._pcq=p._pcq||[];
     p._pcq.push(['_currentTime',Date.now()]);
@@ -9,5 +8,3 @@
     h=u.getElementsByTagName('script')[0];
     h.parentNode.insertBefore(s,h);
 })(window,document);
-</script>
-        
